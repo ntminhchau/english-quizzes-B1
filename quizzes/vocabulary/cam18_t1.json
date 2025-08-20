@@ -33,79 +33,92 @@
             "explanation_vi": "Recommendation (sự giới thiệu) là hành động đề xuất hoặc giới thiệu một điều gì đó tốt cho người khác, phù hợp với 'word-of-mouth' (truyền miệng)."
         },
         {
-            "question": "<i>'You can claim <u>compensation</u> if your belongings are damaged or lost.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "You can claim <u>compensation</u> if your belongings are damaged or lost.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["an angry letter", "money paid for a loss", "a new item", "a receipt"],
             "answer": "money paid for a loss",
             "explanation_vi": "Compensation (sự bồi thường) có nghĩa là tiền hoặc một thứ gì đó có giá trị được trả cho một mất mát, thiệt hại hoặc thương tích."
         },
         {
-            "question": "<i>'Dry cleaners are legally <u>responsible</u> for anything left with them.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "Dry cleaners are legally <u>responsible</u> for anything left with them.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["having a duty to take care of something", "allowed to lose things", "able to pay", "careful with items"],
             "answer": "having a duty to take care of something",
             "explanation_vi": "Responsible (chịu trách nhiệm) có nghĩa là có nghĩa vụ, bổn phận phải chăm sóc hoặc giải quyết một vấn đề gì đó."
         },
         {
-            "question": "<i>'Members are keen to make <u>suggestions</u> on what the group should read next.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "Members are keen to make <u>suggestions</u> on what the group should read next.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["complaints", "rules", "ideas or plans", "books"],
             "answer": "ideas or plans",
             "explanation_vi": "Suggestions (sự gợi ý) là những ý tưởng hoặc kế hoạch được đưa ra để người khác xem xét."
         },
         {
-            "question": "<i>'The workshop is a place to hear <u>constructive</u> suggestions for how to improve your writing.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "The workshop is a place to hear <u>constructive</u> suggestions for how to improve your writing.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["very critical", "angry", "long", "helpful and useful"],
             "answer": "helpful and useful",
             "explanation_vi": "Constructive (mang tính xây dựng) có nghĩa là hữu ích và có mục đích cải thiện, không phải chỉ để chỉ trích."
         },
         {
-            "question": "<i>'Your poems will be <u>displayed</u> in the library and online for the public to see.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "Your poems will be <u>displayed</u> in the library and online for the public to see.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["sold", "hidden", "shown publicly", "written down"],
             "answer": "shown publicly",
             "explanation_vi": "To display (trưng bày) có nghĩa là đặt một thứ gì đó ở nơi công cộng để mọi người có thể nhìn thấy."
         },
         {
-            "question": "<i>'If some simple <u>precautions</u> are taken, lifting equipment can be used safely.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "If some simple <u>precautions</u> are taken, lifting equipment can be used safely.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["actions that cause accidents", "rules for payment", "steps to prevent danger", "machine parts"],
             "answer": "steps to prevent danger",
             "explanation_vi": "Precautions (các biện pháp phòng ngừa) là những hành động được thực hiện trước để ngăn chặn điều gì đó nguy hiểm hoặc khó chịu xảy ra."
         },
         {
-            "question": "<i>'Certain machinery must be inspected by a <u>qualified</u> engineer.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "Certain machinery must be inspected by a <u>qualified</u> engineer.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["having the right skills and training", "very old and experienced", "working very quickly", "well-known and famous"],
             "answer": "having the right skills and training",
             "explanation_vi": "Qualified (đủ tiêu chuẩn, đủ năng lực) có nghĩa là một người đã có kỹ năng, kinh nghiệm và bằng cấp cần thiết để làm một công việc cụ thể."
         },
         {
-            "question": "<i>'Following safety rules is important to <u>prevent</u> accidents in the workplace.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "Following safety rules is important to <u>prevent</u> accidents in the workplace.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["cause", "stop from happening", "watch", "report"],
             "answer": "stop from happening",
             "explanation_vi": "To prevent (ngăn chặn) có nghĩa là làm cho một điều gì đó không xảy ra."
         },
         {
-            "question": "<i>'It is important to handle a customer complaint in a calm and <u>professional</u> manner.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "It is important to handle a customer complaint in a calm and <u>professional</u> manner.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["in an angry way", "with a skilled and serious attitude", "as if you do not care", "with many questions"],
             "answer": "with a skilled and serious attitude",
             "explanation_vi": "Professional (chuyên nghiệp) mô tả một thái độ làm việc nghiêm túc, có kỹ năng và phù hợp với môi trường công việc."
         },
         {
-            "question": "<i>'Asking questions helps you start a <u>genuine</u> conversation with the customer.'</i><br><br>Choose the option closest in meaning to the underlined word.",
+            "sentence": "Asking questions helps you start a <u>genuine</u> conversation with the customer.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
             "options": ["real and sincere", "fake and scripted", "difficult and long", "private"],
             "answer": "real and sincere",
             "explanation_vi": "Genuine (thật, chân thành) có nghĩa là thật sự, không giả tạo."
         },
         {
-            "question": "<i>'You can ask an <u>independent</u> organisation to produce a report on your issue.'</i><br><br>Choose the option most opposite in meaning to the underlined word.",
+            "sentence": "You can ask an <u>independent</u> organisation to produce a report on your issue.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
             "options": ["separate", "dependent", "qualified", "responsible"],
             "answer": "dependent",
             "explanation_vi": "Independent (độc lập) có nghĩa là không bị kiểm soát hoặc phụ thuộc vào người khác. Từ trái nghĩa là dependent (phụ thuộc)."
         },
         {
-            "question": "<i>'His feedback was very <u>constructive</u> and helped me improve my story.'</i><br><br>Choose the option most opposite in meaning to the underlined word.",
+            "sentence": "His feedback was very <u>constructive</u> and helped me improve my story.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
             "options": ["useful", "destructive", "inspiring", "suggestive"],
             "answer": "destructive",
             "explanation_vi": "Constructive (mang tính xây dựng) có nghĩa là hữu ích. Từ trái nghĩa là destructive (mang tính phá hoại, hủy diệt)."
         },
         {
-            "question": "<i>'The manager's <u>professional</u> approach solved the problem quickly.'</i><br><br>Choose the option most opposite in meaning to the underlined word.",
+            "sentence": "The manager's <u>professional</u> approach solved the problem quickly.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
             "options": ["skillful", "amateurish", "genuine", "calm"],
             "answer": "amateurish",
             "explanation_vi": "Professional (chuyên nghiệp) mô tả người có kỹ năng cao. Từ trái nghĩa là amateurish (nghiệp dư, không chuyên nghiệp)."
