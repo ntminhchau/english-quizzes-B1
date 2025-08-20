@@ -1,0 +1,153 @@
+{
+    "id": "cam18_t2",
+    "title": "Cam 18 Test 2",
+    "questions": [
+        {
+            "question": "If you are looking for a cheap option, this _________ sleeping bag is a perfect choice.",
+            "options": ["budget", "natural", "defective", "awarded"],
+            "answer": "budget",
+            "explanation_vi": "Budget (giá rẻ, bình dân) là một tính từ được dùng để mô tả một sản phẩm có giá phải chăng, phù hợp với ngữ cảnh 'a cheap option'."
+        },
+        {
+            "question": "Staff should not try to fix broken kitchen _________; they must report them to a manager.",
+            "options": ["essentials", "appliances", "beverages", "experiences"],
+            "answer": "appliances",
+            "explanation_vi": "Kitchen appliances (thiết bị nhà bếp) là thuật ngữ chỉ các máy móc trong bếp như lò vi sóng, tủ lạnh, máy pha cà phê..."
+        },
+        {
+            "question": "It is strictly _________ for staff to consume drinks from the storeroom.",
+            "options": ["commended", "forbidden", "excluded", "synthetic"],
+            "answer": "forbidden",
+            "explanation_vi": "Forbidden (bị cấm) có nghĩa là không được phép làm điều gì đó theo quy định. 'Strictly forbidden' nhấn mạnh sự nghiêm cấm tuyệt đối."
+        },
+        {
+            "question": "To improve employee wellness, companies can try to _________ the number of sick days.",
+            "options": ["reduce", "repair", "replace", "receive"],
+            "answer": "reduce",
+            "explanation_vi": "Reduce (giảm) là động từ phù hợp nhất để nói về việc làm cho số ngày nghỉ ốm của nhân viên ít đi."
+        },
+        {
+            "question": "He was not allowed to enter the competition because he had _________ won a prize.",
+            "options": ["remarkably", "previously", "indirectly", "currently"],
+            "answer": "previously",
+            "explanation_vi": "Previously (trước đây) chỉ một hành động đã xảy ra trong quá khứ, giải thích lý do tại sao anh ấy không được tham gia lần này."
+        },
+        {
+            "question": "You must _________ your entry before the deadline to be considered for the prize.",
+            "options": ["assist", "combine", "consume", "submit"],
+            "answer": "submit",
+            "explanation_vi": "Submit (nộp) là hành động gửi đi một bài dự thi, đơn đăng ký hoặc tài liệu để được xem xét."
+        },
+        {
+            "question": "The story must be based on the author's own personal _________.",
+            "options": ["absenteeism", "experience", "insulation", "storeroom"],
+            "answer": "experience",
+            "explanation_vi": "Personal experience (trải nghiệm cá nhân) là những sự kiện hoặc cảm xúc mà chính tác giả đã trải qua."
+        },
+        {
+            "sentence": "The sleeping bag has extra <u>insulation</u> to keep your head and feet warm.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["pockets for storage", "material that stops heat loss", "zips and buttons", "a soft pillow"],
+            "answer": "material that stops heat loss",
+            "explanation_vi": "Insulation (vật liệu cách nhiệt) là vật liệu được sử dụng để ngăn chặn sự mất nhiệt (stops heat loss)."
+        },
+        {
+            "sentence": "The inside pocket is useful for storing your <u>essentials</u>, like a phone or wallet.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["necessary small items", "heavy equipment", "food and drink", "large clothes"],
+            "answer": "necessary small items",
+            "explanation_vi": "Essentials (những vật dụng cần thiết) là những món đồ nhỏ nhưng quan trọng mà bạn luôn mang theo bên mình."
+        },
+        {
+            "sentence": "For its weight, the sleeping bag is <u>remarkably</u> warm.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["not very", "surprisingly", "a bit", "extremely"],
+            "answer": "surprisingly",
+            "explanation_vi": "Remarkably (một cách đáng chú ý) có nghĩa là đáng ngạc nhiên (surprisingly) vì nó tốt hơn mong đợi."
+        },
+        {
+            "sentence": "This sleeping bag <u>combines</u> natural feathers and synthetic material.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["separates", "chooses between", "mixes together", "replaces"],
+            "answer": "mixes together",
+            "explanation_vi": "To combine (kết hợp) có nghĩa là trộn lẫn các thứ khác nhau lại với nhau (mixes together)."
+        },
+        {
+            "sentence": "Writers who have won before are <u>excluded</u> from entering the competition again.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["invited to join", "not allowed to join", "forgotten about", "praised for joining"],
+            "answer": "not allowed to join",
+            "explanation_vi": "To be excluded (bị loại trừ) có nghĩa là không được phép tham gia (not allowed to join)."
+        },
+        {
+            "sentence": "Two writers will be <u>highly commended</u> and will receive £500.",
+            "instruction": "Choose the option closest in meaning to the underlined words.",
+            "options": ["officially praised", "politely asked", "sadly rejected", "quickly paid"],
+            "answer": "officially praised",
+            "explanation_vi": "To be highly commended (được tuyên dương) có nghĩa là được khen ngợi một cách chính thức (officially praised) vì thành tích xuất sắc."
+        },
+        {
+            "sentence": "The winner will be <u>awarded</u> a prize of £1,500.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["asked to give", "told to spend", "given", "paid back"],
+            "answer": "given",
+            "explanation_vi": "To be awarded a prize (được trao giải) có nghĩa là được tặng/trao (given) một phần thưởng."
+        },
+        {
+            "sentence": "High <u>absenteeism</u> is a problem for the company, as many workers do not come to work.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["productivity", "staying away from work", "low-cost budgets", "employee wellness"],
+            "answer": "staying away from work",
+            "explanation_vi": "Absenteeism (tình trạng vắng mặt) là hành vi thường xuyên không đi làm (staying away from work)."
+        },
+        {
+            "sentence": "You should <u>substitute</u> sugary drinks with water for a healthier diet.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["add", "mix", "replace", "cool"],
+            "answer": "replace",
+            "explanation_vi": "To substitute A with B (thay thế A bằng B) có nghĩa là dùng B thay cho A (replace)."
+        },
+        {
+            "sentence": "The company installed showers to <u>assist</u> workers who run to the office.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["stop", "watch", "help", "pay"],
+            "answer": "help",
+            "explanation_vi": "To assist (hỗ trợ) có nghĩa là giúp đỡ (help)."
+        },
+        {
+            "sentence": "You must wash your hands after <u>handling</u> money.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["touching", "earning", "spending", "saving"],
+            "answer": "touching",
+            "explanation_vi": "To handle (cầm, nắm, xử lý) trong ngữ cảnh này có nghĩa là chạm vào (touching)."
+        },
+        {
+            "sentence": "Food and drinks in the staff room may be <u>consumed</u> by staff for free.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["sold", "looked at", "stored", "eaten or drunk"],
+            "answer": "eaten or drunk",
+            "explanation_vi": "To consume (tiêu thụ) có nghĩa là ăn hoặc uống (eaten or drunk)."
+        },
+        {
+            "sentence": "Duck down is a <u>natural</u> material used in sleeping bags.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
+            "options": ["soft", "synthetic", "cheap", "heavy"],
+            "answer": "synthetic",
+            "explanation_vi": "Từ trái nghĩa của natural (tự nhiên) là synthetic (nhân tạo, tổng hợp)."
+        },
+        {
+            "sentence": "The company wants to <u>reduce</u> the amount of money it spends on electricity.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
+            "options": ["increase", "count", "save", "find"],
+            "answer": "increase",
+            "explanation_vi": "Từ trái nghĩa của reduce (giảm) là increase (tăng)."
+        },
+        {
+            "sentence": "Do not use the toaster if it is <u>defective</u>.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
+            "options": ["broken", "old", "perfect", "hot"],
+            "answer": "perfect",
+            "explanation_vi": "Từ trái nghĩa của defective (bị lỗi, hỏng) là perfect (hoàn hảo, không có lỗi)."
+        }
+    ]
+}
