@@ -1,139 +1,151 @@
 {
     "id": "cam18_t1",
-    "title": "Cam 18 Test 1",
+    "title": "Cam 18 Test 1 (New)",
     "questions": [
         {
-            "question": "Before you offer a solution, you must understand the company's _________ on dealing with customer complaints.",
-            "options": ["suggestion", "standard", "policy", "solution"],
-            "answer": "policy",
-            "explanation_vi": "Policy (chính sách) là lựa chọn đúng vì câu này nói về các quy tắc hoặc đường lối hành động chính thức của công ty khi xử lý khiếu nại của khách hàng."
+            "question": "The writing group is a great place to share your work and get helpful _________ from other members.",
+            "options": ["expectations", "suggestions", "injuries", "contradictions"],
+            "answer": "suggestions",
+            "explanation_vi": "Suggestions (gợi ý, góp ý) là những lời khuyên hữu ích mà các thành viên có thể trao đổi với nhau trong một nhóm viết lách."
         },
         {
-            "question": "You must use the correct safety _________ when operating heavy machinery to avoid accidents.",
-            "options": ["precautions", "equipment", "injuries", "standards"],
-            "answer": "equipment",
-            "explanation_vi": "Equipment (thiết bị) là từ phù hợp nhất. 'Safety equipment' là các vật dụng cần thiết để đảm bảo an toàn, như mũ bảo hiểm, găng tay."
-        },
-        {
-            "question": "The poetry writing group is _________ full, but you can join the waiting list.",
-            "options": ["genuine", "currently", "independent", "professional"],
+            "question": "It is not possible to join the poetry group because it is _________ full.",
+            "options": ["legally", "currently", "originally", "independently"],
             "answer": "currently",
-            "explanation_vi": "Currently (hiện tại) mô tả tình trạng của nhóm vào lúc này, giải thích tại sao cần phải vào danh sách chờ."
+            "explanation_vi": "Currently (hiện tại) được dùng để mô tả tình trạng của nhóm ngay tại thời điểm nói, giải thích lý do tại sao không thể tham gia."
         },
         {
-            "question": "If you disagree with the amount of compensation offered, you will have to _________ a better price with the manager.",
-            "options": ["prevent", "display", "negotiate", "complain"],
-            "answer": "negotiate",
-            "explanation_vi": "Negotiate (thương lượng, đàm phán) là hành động cố gắng đạt được một thỏa thuận tốt hơn, phù hợp với ngữ cảnh của câu."
+            "question": "According to the law, a business is _________ for taking care of customer property.",
+            "options": ["obliged", "constructive", "responsible", "reduced"],
+            "answer": "responsible",
+            "explanation_vi": "Responsible for something (chịu trách nhiệm cho việc gì) là cụm từ đúng để chỉ nghĩa vụ pháp lý của một doanh nghiệp."
         },
         {
-            "question": "A happy customer might give a positive word-of-mouth _________ to their friends.",
-            "options": ["inspiration", "expectation", "recommendation", "precaution"],
-            "answer": "recommendation",
-            "explanation_vi": "Recommendation (sự giới thiệu) là hành động đề xuất hoặc giới thiệu một điều gì đó tốt cho người khác, phù hợp với 'word-of-mouth' (truyền miệng)."
+            "question": "If the item is damaged, you can ask the company for a full _________.",
+            "options": ["support", "refund", "value", "feedback"],
+            "answer": "refund",
+            "explanation_vi": "A full refund (hoàn tiền đầy đủ) là khoản tiền được trả lại cho khách hàng khi sản phẩm bị lỗi hoặc hư hỏng."
         },
         {
-            "sentence": "You can claim <u>compensation</u> if your belongings are damaged or lost.",
+            "question": "Most accidents at the factory happen because of faulty equipment, causing serious _________.",
+            "options": ["suggestions", "expectations", "injuries", "confrontations"],
+            "answer": "injuries",
+            "explanation_vi": "Injuries (thương tích) là hậu quả trực tiếp và phổ biến nhất của các vụ tai nạn liên quan đến thiết bị hỏng hóc."
+        },
+        {
+            "question": "You must submit your complaint within the six-year _________ or you cannot take the case to court.",
+            "options": ["trade association", "control measure", "time limit", "inspiration"],
+            "answer": "time limit",
+            "explanation_vi": "Time limit (thời hạn) là khoảng thời gian tối đa được pháp luật cho phép để thực hiện một hành động pháp lý như khiếu nại."
+        },
+        {
+            "sentence": "Dry cleaners are <u>legally required</u> to take reasonable care of your clothes.",
+            "instruction": "Choose the option closest in meaning to the underlined words.",
+            "options": ["they can choose to", "they must do it by law", "they should try to", "they usually want to"],
+            "answer": "they must do it by law",
+            "explanation_vi": "Legally required (bị yêu cầu về mặt pháp lý) có nghĩa là một việc bắt buộc phải làm theo luật (must do it by law)."
+        },
+        {
+            "sentence": "The <u>maximum</u> they are obliged to offer is the item's current value.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["an angry letter", "money paid for a loss", "a new item", "a receipt"],
-            "answer": "money paid for a loss",
-            "explanation_vi": "Compensation (sự bồi thường) có nghĩa là tiền hoặc một thứ gì đó có giá trị được trả cho một mất mát, thiệt hại hoặc thương tích."
+            "options": ["the average amount", "the smallest price", "the most that is allowed", "the original cost"],
+            "answer": "the most that is allowed",
+            "explanation_vi": "Maximum (tối đa) có nghĩa là mức cao nhất, số lượng lớn nhất được phép (the most that is allowed)."
         },
         {
-            "sentence": "Dry cleaners are legally <u>responsible</u> for anything left with them.",
+            "sentence": "The dry cleaner can offer a <u>reduced</u> amount depending on the item's condition.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["having a duty to take care of something", "allowed to lose things", "able to pay", "careful with items"],
-            "answer": "having a duty to take care of something",
-            "explanation_vi": "Responsible (chịu trách nhiệm) có nghĩa là có nghĩa vụ, bổn phận phải chăm sóc hoặc giải quyết một vấn đề gì đó."
+            "options": ["a larger", "a full", "a repeated", "a smaller"],
+            "answer": "a smaller",
+            "explanation_vi": "Reduced (được giảm bớt) có nghĩa là nhỏ hơn (smaller) so với mức ban đầu."
         },
         {
-            "sentence": "Members are keen to make <u>suggestions</u> on what the group should read next.",
+            "sentence": "You can get <u>support</u> from a trade association if you have a problem.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["complaints", "rules", "ideas or plans", "books"],
-            "answer": "ideas or plans",
-            "explanation_vi": "Suggestions (sự gợi ý) là những ý tưởng hoặc kế hoạch được đưa ra để người khác xem xét."
+            "options": ["money", "an argument", "help", "a report"],
+            "answer": "help",
+            "explanation_vi": "Support (sự hỗ trợ) trong ngữ cảnh này có nghĩa là sự giúp đỡ (help)."
         },
         {
-            "sentence": "The workshop is a place to hear <u>constructive</u> suggestions for how to improve your writing.",
+            "sentence": "It is helpful to get <u>feedback</u> on your writing to see how you can improve it.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["very critical", "angry", "long", "helpful and useful"],
-            "answer": "helpful and useful",
-            "explanation_vi": "Constructive (mang tính xây dựng) có nghĩa là hữu ích và có mục đích cải thiện, không phải chỉ để chỉ trích."
+            "options": ["inspiration and new ideas", "a price for your work", "comments about how good or bad your work is", "an argument with another writer"],
+            "answer": "comments about how good or bad your work is",
+            "explanation_vi": "Feedback (phản hồi, góp ý) chính là những lời nhận xét về chất lượng công việc của bạn (comments about how good or bad your work is)."
         },
         {
-            "sentence": "Your poems will be <u>displayed</u> in the library and online for the public to see.",
+            "sentence": "His advice was very <u>constructive</u>; it really helped me make my story better.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["sold", "hidden", "shown publicly", "written down"],
-            "answer": "shown publicly",
-            "explanation_vi": "To display (trưng bày) có nghĩa là đặt một thứ gì đó ở nơi công cộng để mọi người có thể nhìn thấy."
+            "options": ["negative", "confusing", "long", "useful and helpful"],
+            "answer": "useful and helpful",
+            "explanation_vi": "Constructive (mang tính xây dựng) có nghĩa là hữu ích và giúp ích cho việc cải thiện (useful and helpful)."
         },
         {
-            "sentence": "If some simple <u>precautions</u> are taken, lifting equipment can be used safely.",
+            "sentence": "The workshop is for people who need <u>inspiration</u> to start writing their book.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["actions that cause accidents", "rules for payment", "steps to prevent danger", "machine parts"],
-            "answer": "steps to prevent danger",
-            "explanation_vi": "Precautions (các biện pháp phòng ngừa) là những hành động được thực hiện trước để ngăn chặn điều gì đó nguy hiểm hoặc khó chịu xảy ra."
+            "options": ["a person who gives you new ideas", "a strict time limit", "a legal requirement", "money and support"],
+            "answer": "a person who gives you new ideas",
+            "explanation_vi": "Inspiration (cảm hứng) là một ý tưởng mới mẻ và thú vị, hoặc người mang lại ý tưởng đó, giúp bạn sáng tạo."
         },
         {
-            "sentence": "Certain machinery must be inspected by a <u>qualified</u> engineer.",
+            "sentence": "A lift plan identifies dangers and puts <u>control measures</u> in place.",
+            "instruction": "Choose the option closest in meaning to the underlined words.",
+            "options": ["legal arguments", "expensive reports", "actions to manage risks", "customer expectations"],
+            "answer": "actions to manage risks",
+            "explanation_vi": "Control measures (các biện pháp kiểm soát) là những hành động được thực hiện để quản lý và giảm thiểu rủi ro (actions to manage risks)."
+        },
+        {
+            "sentence": "When a customer is angry, aiming to win the <u>confrontation</u> accomplishes nothing.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["having the right skills and training", "very old and experienced", "working very quickly", "well-known and famous"],
-            "answer": "having the right skills and training",
-            "explanation_vi": "Qualified (đủ tiêu chuẩn, đủ năng lực) có nghĩa là một người đã có kỹ năng, kinh nghiệm và bằng cấp cần thiết để làm một công việc cụ thể."
+            "options": ["discussion", "argument", "recommendation", "refund"],
+            "answer": "argument",
+            "explanation_vi": "Confrontation (sự đối đầu) thường là một cuộc tranh cãi (argument) gay gắt."
         },
         {
-            "sentence": "Following safety rules is important to <u>prevent</u> accidents in the workplace.",
+            "sentence": "A simple, kind gesture can result in a word-of-mouth <u>recommendation</u>.",
             "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["cause", "stop from happening", "watch", "report"],
-            "answer": "stop from happening",
-            "explanation_vi": "To prevent (ngăn chặn) có nghĩa là làm cho một điều gì đó không xảy ra."
+            "options": ["an angry complaint", "a legal requirement", "a piece of advice to do something", "a feeling of disappointment"],
+            "answer": "a piece of advice to do something",
+            "explanation_vi": "A recommendation (sự giới thiệu) là một lời khuyên ai đó nên làm hoặc sử dụng một cái gì đó."
         },
         {
-            "sentence": "It is important to handle a customer complaint in a calm and <u>professional</u> manner.",
-            "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["in an angry way", "with a skilled and serious attitude", "as if you do not care", "with many questions"],
-            "answer": "with a skilled and serious attitude",
-            "explanation_vi": "Professional (chuyên nghiệp) mô tả một thái độ làm việc nghiêm túc, có kỹ năng và phù hợp với môi trường công việc."
-        },
-        {
-            "sentence": "Asking questions helps you start a <u>genuine</u> conversation with the customer.",
-            "instruction": "Choose the option closest in meaning to the underlined word.",
-            "options": ["real and sincere", "fake and scripted", "difficult and long", "private"],
-            "answer": "real and sincere",
-            "explanation_vi": "Genuine (thật, chân thành) có nghĩa là thật sự, không giả tạo."
-        },
-        {
-            "sentence": "You can ask an <u>independent</u> organisation to produce a report on your issue.",
+            "sentence": "Getting a report from an independent organization can be very <u>expensive</u>.",
             "instruction": "Choose the option most opposite in meaning to the underlined word.",
-            "options": ["separate", "dependent", "qualified", "responsible"],
-            "answer": "dependent",
-            "explanation_vi": "Independent (độc lập) có nghĩa là không bị kiểm soát hoặc phụ thuộc vào người khác. Từ trái nghĩa là dependent (phụ thuộc)."
+            "options": ["helpful", "cheap", "responsible", "quick"],
+            "answer": "cheap",
+            "explanation_vi": "Từ trái nghĩa của expensive (đắt tiền) là cheap (rẻ tiền)."
         },
         {
-            "sentence": "His feedback was very <u>constructive</u> and helped me improve my story.",
+            "sentence": "The <u>maximum</u> amount of money you can claim is £500.",
             "instruction": "Choose the option most opposite in meaning to the underlined word.",
-            "options": ["useful", "destructive", "inspiring", "suggestive"],
-            "answer": "destructive",
-            "explanation_vi": "Constructive (mang tính xây dựng) có nghĩa là hữu ích. Từ trái nghĩa là destructive (mang tính phá hoại, hủy diệt)."
+            "options": ["correct", "total", "minimum", "reduced"],
+            "answer": "minimum",
+            "explanation_vi": "Từ trái nghĩa của maximum (tối đa) là minimum (tối thiểu)."
         },
         {
-            "sentence": "The manager's <u>professional</u> approach solved the problem quickly.",
+            "sentence": "His feedback was <u>constructive</u> and gave me confidence.",
             "instruction": "Choose the option most opposite in meaning to the underlined word.",
-            "options": ["skillful", "amateurish", "genuine", "calm"],
-            "answer": "amateurish",
-            "explanation_vi": "Professional (chuyên nghiệp) mô tả người có kỹ năng cao. Từ trái nghĩa là amateurish (nghiệp dư, không chuyên nghiệp)."
+            "options": ["independent", "required", "unhelpful", "responsible"],
+            "answer": "unhelpful",
+            "explanation_vi": "Từ trái nghĩa của constructive (có tính xây dựng, hữu ích) là unhelpful (vô ích, không giúp được gì)."
         },
         {
             "question": "Choose the odd one out.",
-            "options": ["Suggestion", "Recommendation", "Inspiration", "Equipment"],
-            "answer": "Equipment",
-            "explanation_vi": "Suggestion, Recommendation, và Inspiration đều là những khái niệm trừu tượng liên quan đến ý tưởng. Equipment (thiết bị) là một vật thể hữu hình."
+            "options": ["Feedback", "Suggestions", "Recommendation", "Confrontation"],
+            "answer": "Confrontation",
+            "explanation_vi": "Feedback, Suggestions, và Recommendation đều là các hình thức đưa ra lời khuyên hoặc nhận xét. Confrontation (sự đối đầu) là một cuộc tranh cãi."
         },
         {
             "question": "Choose the odd one out.",
-            "options": ["Complaint", "Issue", "Problem", "Genre"],
-            "answer": "Genre",
-            "explanation_vi": "Complaint, Issue, và Problem đều liên quan đến các vấn đề hoặc khó khăn. Genre (thể loại) là một thuật ngữ dùng để phân loại, thường trong nghệ thuật hoặc văn học."
+            "options": ["Responsible", "Required", "Obliged", "Independent"],
+            "answer": "Independent",
+            "explanation_vi": "Responsible, Required, và Obliged đều mô tả một nghĩa vụ hoặc yêu cầu bắt buộc. Independent (độc lập) mô tả trạng thái tự chủ."
+        },
+        {
+            "question": "Choose the odd one out.",
+            "options": ["Refund", "Value", "Price", "Support"],
+            "answer": "Support",
+            "explanation_vi": "Refund, Value, và Price đều là các khái niệm liên quan trực tiếp đến tiền bạc. Support (sự hỗ trợ) có nghĩa là sự giúp đỡ."
         }
     ]
 }
