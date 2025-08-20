@@ -88,7 +88,7 @@
                 <div id="timer" class="text-5xl font-bold text-yellow-400">25</div>
             </div>
             <div id="question-container" class="mb-6">
-                <p id="question-text" class="text-xl md:text-2xl text-center font-medium min-h-[100px] flex items-center justify-center"></p>
+                <div id="question-text" class="text-xl md:text-2xl text-center font-medium min-h-[100px] flex items-center justify-center"></div>
             </div>
             <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
         </div>
@@ -248,7 +248,11 @@
         }
     }
 
-    function populateQuizList(category, quizIds) {
+    function populateQuizList(category, files) {
+        const quizIds = files.map(file => {
+            const parts = file.split('/');
+            return parts[parts.length - 1].replace('.json', '');
+        });
         categoryTitle.textContent = `Chuyên mục: ${category}`;
         quizListContainer.innerHTML = '';
         const quizzesInCategory = allQuizzesData.filter(quiz => quizIds.includes(quiz.id));
@@ -294,8 +298,8 @@
     }
 
     function showQuizCategory(category, files) {
+        populateQuizList(category, files);
         const quizIds = files.map(file => file.split('/').pop().replace('.json', ''));
-        populateQuizList(category, quizIds);
         displayUserHistory(quizIds);
         showScreen('quizList');
     }
@@ -332,7 +336,21 @@
         const question = shuffledQuestions[currentQuestionIndex];
         progressBar.style.width = `${((currentQuestionIndex + 1) / shuffledQuestions.length) * 100}%`;
         questionCounter.textContent = `Câu ${currentQuestionIndex + 1}/${shuffledQuestions.length}`;
-        questionText.innerHTML = question.question;
+        
+        // ** LOGIC MỚI ĐỂ HIỂN THỊ CÂU HỎI **
+        if (question.sentence && question.instruction) {
+            // Dành cho câu hỏi đồng nghĩa/trái nghĩa có cấu trúc mới
+            questionText.innerHTML = `
+                <div class="w-full">
+                    <p class="italic text-gray-300 mb-3 text-xl md:text-2xl">"${question.sentence}"</p>
+                    <p class="font-semibold text-lg md:text-xl">${question.instruction}</p>
+                </div>
+            `;
+        } else {
+            // Dành cho các loại câu hỏi khác (điền từ, odd one out)
+            questionText.innerHTML = question.question;
+        }
+
 
         optionsContainer.innerHTML = '';
         question.options.forEach(option => {
