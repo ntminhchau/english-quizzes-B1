@@ -1,0 +1,126 @@
+{
+    "id": "cam18_t1",
+    "title": "Cam 18 Test 1",
+    "questions": [
+        {
+            "question": "Before you offer a solution, you must understand the company's _________ on dealing with customer complaints.",
+            "options": ["suggestion", "standard", "policy", "solution"],
+            "answer": "policy",
+            "explanation_vi": "Policy (chính sách) là lựa chọn đúng vì câu này nói về các quy tắc hoặc đường lối hành động chính thức của công ty khi xử lý khiếu nại của khách hàng."
+        },
+        {
+            "question": "You must use the correct safety _________ when operating heavy machinery to avoid accidents.",
+            "options": ["precautions", "equipment", "injuries", "standards"],
+            "answer": "equipment",
+            "explanation_vi": "Equipment (thiết bị) là từ phù hợp nhất. 'Safety equipment' là các vật dụng cần thiết để đảm bảo an toàn, như mũ bảo hiểm, găng tay."
+        },
+        {
+            "question": "The poetry writing group is _________ full, but you can join the waiting list.",
+            "options": ["genuine", "currently", "independent", "professional"],
+            "answer": "currently",
+            "explanation_vi": "Currently (hiện tại) mô tả tình trạng của nhóm vào lúc này, giải thích tại sao cần phải vào danh sách chờ."
+        },
+        {
+            "question": "If you disagree with the amount of compensation offered, you will have to _________ a better price with the manager.",
+            "options": ["prevent", "display", "negotiate", "complain"],
+            "answer": "negotiate",
+            "explanation_vi": "Negotiate (thương lượng, đàm phán) là hành động cố gắng đạt được một thỏa thuận tốt hơn, phù hợp với ngữ cảnh của câu."
+        },
+        {
+            "question": "A happy customer might give a positive word-of-mouth _________ to their friends.",
+            "options": ["inspiration", "expectation", "recommendation", "precaution"],
+            "answer": "recommendation",
+            "explanation_vi": "Recommendation (sự giới thiệu) là hành động đề xuất hoặc giới thiệu một điều gì đó tốt cho người khác, phù hợp với 'word-of-mouth' (truyền miệng)."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>compensation</u>' in: 'You can claim <u>compensation</u> if your belongings are damaged or lost.'",
+            "options": ["an angry letter", "money paid for a loss", "a new item", "a receipt"],
+            "answer": "money paid for a loss",
+            "explanation_vi": "Compensation (sự bồi thường) có nghĩa là tiền hoặc một thứ gì đó có giá trị được trả cho một mất mát, thiệt hại hoặc thương tích."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>responsible</u>' in: 'Dry cleaners are legally <u>responsible</u> for anything left with them.'",
+            "options": ["having a duty to take care of something", "allowed to lose things", "able to pay", "careful with items"],
+            "answer": "having a duty to take care of something",
+            "explanation_vi": "Responsible (chịu trách nhiệm) có nghĩa là có nghĩa vụ, bổn phận phải chăm sóc hoặc giải quyết một vấn đề gì đó."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>suggestions</u>' in: 'Members are keen to make <u>suggestions</u> on what the group should read next.'",
+            "options": ["complaints", "rules", "ideas or plans", "books"],
+            "answer": "ideas or plans",
+            "explanation_vi": "Suggestions (sự gợi ý) là những ý tưởng hoặc kế hoạch được đưa ra để người khác xem xét."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>constructive</u>' in: 'The workshop is a place to hear <u>constructive</u> suggestions for how to improve your writing.'",
+            "options": ["very critical", "angry", "long", "helpful and useful"],
+            "answer": "helpful and useful",
+            "explanation_vi": "Constructive (mang tính xây dựng) có nghĩa là hữu ích và có mục đích cải thiện, không phải chỉ để chỉ trích."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>displayed</u>' in: 'Your poems will be <u>displayed</u> in the library and online for the public to see.'",
+            "options": ["sold", "hidden", "shown publicly", "written down"],
+            "answer": "shown publicly",
+            "explanation_vi": "To display (trưng bày) có nghĩa là đặt một thứ gì đó ở nơi công cộng để mọi người có thể nhìn thấy."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>precautions</u>' in: 'If some simple <u>precautions</u> are taken, lifting equipment can be used safely.'",
+            "options": ["actions that cause accidents", "rules for payment", "steps to prevent danger", "machine parts"],
+            "answer": "steps to prevent danger",
+            "explanation_vi": "Precautions (các biện pháp phòng ngừa) là những hành động được thực hiện trước để ngăn chặn điều gì đó nguy hiểm hoặc khó chịu xảy ra."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>qualified</u>' in: 'Certain machinery must be inspected by a <u>qualified</u> engineer.'",
+            "options": ["having the right skills and training", "very old and experienced", "working very quickly", "well-known and famous"],
+            "answer": "having the right skills and training",
+            "explanation_vi": "Qualified (đủ tiêu chuẩn, đủ năng lực) có nghĩa là một người đã có kỹ năng, kinh nghiệm và bằng cấp cần thiết để làm một công việc cụ thể."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>prevent</u>' in: 'Following safety rules is important to <u>prevent</u> accidents in the workplace.'",
+            "options": ["cause", "stop from happening", "watch", "report"],
+            "answer": "stop from happening",
+            "explanation_vi": "To prevent (ngăn chặn) có nghĩa là làm cho một điều gì đó không xảy ra."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>professional</u>' in: 'It is important to handle a customer complaint in a calm and <u>professional</u> manner.'",
+            "options": ["in an angry way", "with a skilled and serious attitude", "as if you do not care", "with many questions"],
+            "answer": "with a skilled and serious attitude",
+            "explanation_vi": "Professional (chuyên nghiệp) mô tả một thái độ làm việc nghiêm túc, có kỹ năng và phù hợp với môi trường công việc."
+        },
+        {
+            "question": "Choose the word or phrase that is closest in meaning to '<u>genuine</u>' in: 'Asking questions helps you start a <u>genuine</u> conversation with the customer.'",
+            "options": ["real and sincere", "fake and scripted", "difficult and long", "private"],
+            "answer": "real and sincere",
+            "explanation_vi": "Genuine (thật, chân thành) có nghĩa là thật sự, không giả tạo."
+        },
+        {
+            "question": "Choose the word that is most opposite in meaning to '<u>independent</u>' in: 'You can ask an <u>independent</u> organisation to produce a report on your issue.'",
+            "options": ["separate", "dependent", "qualified", "responsible"],
+            "answer": "dependent",
+            "explanation_vi": "Independent (độc lập) có nghĩa là không bị kiểm soát hoặc phụ thuộc vào người khác. Từ trái nghĩa là dependent (phụ thuộc)."
+        },
+        {
+            "question": "Choose the word that is most opposite in meaning to '<u>constructive</u>' in: 'His feedback was very <u>constructive</u> and helped me improve my story.'",
+            "options": ["useful", "destructive", "inspiring", "suggestive"],
+            "answer": "destructive",
+            "explanation_vi": "Constructive (mang tính xây dựng) có nghĩa là hữu ích. Từ trái nghĩa là destructive (mang tính phá hoại, hủy diệt)."
+        },
+        {
+            "question": "Choose the word that is most opposite in meaning to '<u>professional</u>' in: 'The manager's <u>professional</u> approach solved the problem quickly.'",
+            "options": ["skillful", "amateurish", "genuine", "calm"],
+            "answer": "amateurish",
+            "explanation_vi": "Professional (chuyên nghiệp) mô tả người có kỹ năng cao. Từ trái nghĩa là amateurish (nghiệp dư, không chuyên nghiệp)."
+        },
+        {
+            "question": "Choose the odd one out.",
+            "options": ["Suggestion", "Recommendation", "Inspiration", "Equipment"],
+            "answer": "Equipment",
+            "explanation_vi": "Suggestion, Recommendation, và Inspiration đều là những khái niệm trừu tượng liên quan đến ý tưởng. Equipment (thiết bị) là một vật thể hữu hình."
+        },
+        {
+            "question": "Choose the odd one out.",
+            "options": ["Complaint", "Issue", "Problem", "Genre"],
+            "answer": "Genre",
+            "explanation_vi": "Complaint, Issue, và Problem đều liên quan đến các vấn đề hoặc khó khăn. Genre (thể loại) là một thuật ngữ dùng để phân loại, thường trong nghệ thuật hoặc văn học."
+        }
+    ]
+}
