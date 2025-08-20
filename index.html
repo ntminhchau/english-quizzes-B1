@@ -337,18 +337,18 @@
         progressBar.style.width = `${((currentQuestionIndex + 1) / shuffledQuestions.length) * 100}%`;
         questionCounter.textContent = `Câu ${currentQuestionIndex + 1}/${shuffledQuestions.length}`;
         
-        // ** LOGIC ĐÃ CẬP NHẬT **
+        // ** LOGIC ĐÃ SỬA LỖI **
         if (question.sentence && question.instruction) {
             // Dành cho câu hỏi đồng nghĩa/trái nghĩa có cấu trúc mới
             questionText.innerHTML = `
-                <div class="w-full">
+                <div class="w-full flex flex-col items-center">
                     <p class="font-semibold text-lg md:text-xl mb-3">${question.instruction}</p>
                     <p class="italic text-gray-300 text-xl md:text-2xl">"${question.sentence}"</p>
                 </div>
             `;
         } else {
             // Dành cho các loại câu hỏi khác (điền từ, odd one out)
-            questionText.innerHTML = question.question;
+            questionText.innerHTML = `<div class="w-full">${question.question}</div>`;
         }
 
 
