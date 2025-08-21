@@ -1,0 +1,139 @@
+{
+    "id": "cam18_t3",
+    "title": "Cam 18 Test 3",
+    "questions": [
+        {
+            "question": "It is important to _________ young children when they are playing in the water.",
+            "options": ["supervise", "qualify", "request", "operate"],
+            "answer": "supervise",
+            "explanation_vi": "Supervise (giám sát) là hành động trông coi, theo dõi cẩn thận để đảm bảo an toàn, đặc biệt là với trẻ em."
+        },
+        {
+            "question": "The beach was very _________ on the weekend because of the sunny weather.",
+            "options": ["crowded", "protected", "professional", "monthly"],
+            "answer": "crowded",
+            "explanation_vi": "Crowded (đông đúc) là tính từ mô tả một nơi có rất nhiều người, phù hợp với bối cảnh bãi biển vào một ngày nắng đẹp."
+        },
+        {
+            "question": "You should always swim in areas where _________ are on duty.",
+            "options": ["lifeguards", "pensioners", "complaints", "buses"],
+            "answer": "lifeguards",
+            "explanation_vi": "Lifeguards (nhân viên cứu hộ) là những người được đào tạo để đảm bảo an toàn cho người đi bơi ở bãi biển hoặc hồ bơi."
+        },
+        {
+            "question": "To receive your bills every month, you must pay an _________.",
+            "options": ["public transport", "additional fee", "reduction", "replacement"],
+            "answer": "additional fee",
+            "explanation_vi": "An additional fee (một khoản phí bổ sung) là số tiền bạn phải trả thêm để nhận được một dịch vụ cộng thêm."
+        },
+        {
+            "question": "You must own your home to _________ for the discount on your water bill.",
+            "options": ["supervise", "qualify", "request", "encourage"],
+            "answer": "qualify",
+            "explanation_vi": "To qualify for something (đủ điều kiện cho cái gì) có nghĩa là đáp ứng các yêu cầu cần thiết để nhận được một quyền lợi nào đó."
+        },
+        {
+            "question": "If you have any _________ about the car park, please send them to the HR manager.",
+            "options": ["complaints", "pensioners", "lifeguards", "fees"],
+            "answer": "complaints",
+            "explanation_vi": "Complaints (lời phàn nàn, khiếu nại) là những ý kiến bày tỏ sự không hài lòng về một vấn đề gì đó."
+        },
+        {
+            "question": "When an employee leaves the company, a _________ is hired to take over their job.",
+            "options": ["reduction", "replacement", "difficulty", "sharing"],
+            "answer": "replacement",
+            "explanation_vi": "A replacement (người thay thế) là người được tuyển dụng để làm công việc của người đã nghỉ."
+        },
+        {
+            "sentence": "The surf school <u>operates</u> from the surf club on the main beach.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["closes", "works or does business from", "plays", "moves"],
+            "answer": "works or does business from",
+            "explanation_vi": "To operate (hoạt động) trong kinh doanh có nghĩa là làm việc hoặc kinh doanh tại một địa điểm cụ thể."
+        },
+        {
+            "sentence": "The small beach gets <u>overly</u> crowded on public holidays.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["a little", "not very", "sometimes", "too"],
+            "answer": "too",
+            "explanation_vi": "Overly (quá mức) là một trạng từ đồng nghĩa với 'too', chỉ một điều gì đó nhiều hơn mức cần thiết hoặc mong muốn."
+        },
+        {
+            "sentence": "The small bay is a <u>protected</u> area, which makes it safe for children.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["dangerous", "kept safe from harm", "very large", "far away"],
+            "answer": "kept safe from harm",
+            "explanation_vi": "Protected (được bảo vệ) có nghĩa là được giữ an toàn khỏi nguy hiểm hoặc tổn hại (kept safe from harm)."
+        },
+        {
+            "sentence": "You can get to the beach easily using <u>public transport</u>.",
+            "instruction": "Choose the option closest in meaning to the underlined words.",
+            "options": ["a private car", "a fast boat", "buses and ferries for everyone", "a bicycle"],
+            "answer": "buses and ferries for everyone",
+            "explanation_vi": "Public transport (phương tiện giao thông công cộng) là hệ thống xe buýt, tàu hỏa, phà... dành cho tất cả mọi người sử dụng."
+        },
+        {
+            "sentence": "The lifeguards are <u>on duty</u> from 9 a.m. to 5 p.m. every day.",
+            "instruction": "Choose the option closest in meaning to the underlined words.",
+            "options": ["on holiday", "at work and responsible", "having fun", "not available"],
+            "answer": "at work and responsible",
+            "explanation_vi": "On duty (đang trong ca trực) có nghĩa là đang làm việc và chịu trách nhiệm cho công việc của mình."
+        },
+        {
+            "sentence": "The company will send you <u>monthly</u> bills if you pay the extra fee.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["every year", "every week", "every month", "every day"],
+            "answer": "every month",
+            "explanation_vi": "Monthly (hàng tháng) có nghĩa là diễn ra mỗi tháng một lần (every month)."
+        },
+        {
+            "sentence": "Pensioners may receive a <u>reduction</u> on their water bill.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["an increase", "a discount", "a reminder", "an extra charge"],
+            "answer": "a discount",
+            "explanation_vi": "A reduction (sự giảm giá) đồng nghĩa với a discount, tức là một khoản tiền được giảm trừ."
+        },
+        {
+            "sentence": "You can <u>request</u> a copy of your old bills by filling out a form.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["formally ask for", "pay for", "complain about", "sell"],
+            "answer": "formally ask for",
+            "explanation_vi": "To request (yêu cầu) có nghĩa là hỏi một cách trang trọng hoặc chính thức (formally ask for)."
+        },
+        {
+            "sentence": "The company <u>encouraged</u> staff to share cars to reduce traffic.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["forced", "gave support or confidence to", "paid", "stopped"],
+            "answer": "gave support or confidence to",
+            "explanation_vi": "To encourage (khuyến khích) có nghĩa là động viên, hỗ trợ hoặc tạo sự tự tin cho ai đó để họ làm gì."
+        },
+        {
+            "sentence": "I am writing to you <u>concerning</u> the parking problem at the office.",
+            "instruction": "Choose the option closest in meaning to the underlined word.",
+            "options": ["after", "because", "about", "without"],
+            "answer": "about",
+            "explanation_vi": "Concerning (liên quan đến, về việc) là một giới từ trang trọng, đồng nghĩa với 'about'."
+        },
+        {
+            "sentence": "The market was extremely <u>crowded</u> with tourists.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
+            "options": ["busy", "full", "noisy", "empty"],
+            "answer": "empty",
+            "explanation_vi": "Từ trái nghĩa của crowded (đông đúc) là empty (trống rỗng, vắng vẻ)."
+        },
+        {
+            "sentence": "He solved the puzzle without any <u>difficulty</u>.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
+            "options": ["help", "ease", "thought", "problem"],
+            "answer": "ease",
+            "explanation_vi": "Từ trái nghĩa của difficulty (sự khó khăn) là ease (sự dễ dàng)."
+        },
+        {
+            "sentence": "You need to hire a <u>professional</u> photographer for your wedding.",
+            "instruction": "Choose the option most opposite in meaning to the underlined word.",
+            "options": ["an expert", "an amateur", "an expensive", "a creative"],
+            "answer": "an amateur",
+            "explanation_vi": "Từ trái nghĩa của professional (chuyên nghiệp) là amateur (nghiệp dư)."
+        }
+    ]
+}
