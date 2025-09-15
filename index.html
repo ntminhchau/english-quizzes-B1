@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B1 English Quizzes</title>
+    <title>B1 English Practice</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,15 +39,45 @@
 
     <div id="app-container" class="w-full max-w-4xl mx-auto">
 
-        <!-- Màn hình đăng nhập -->
-        <div id="login-screen" class="text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
+        <div id="home-screen" class="text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
+            <h1 class="text-4xl font-bold mb-2 text-cyan-400">B1 English Practice</h1>
+            <p class="text-gray-300 mb-8">Chọn một mục để luyện tập</p>
+            <div class="flex flex-col gap-6 justify-center">
+                 <button id="reading-vocab-btn" class="bg-teal-600 hover:bg-teal-700 text-white font-bold py-6 px-10 rounded-lg text-2xl transition duration-300 transform hover:scale-105">
+                    🧠 Reading & Vocabulary Quizzes
+                </button>
+                <button id="speaking-btn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-6 px-10 rounded-lg text-2xl transition duration-300 transform hover:scale-105">
+                    🗣️ Speaking Samples
+                </button>
+                <button id="writing-btn" class="bg-rose-600 hover:bg-rose-700 text-white font-bold py-6 px-10 rounded-lg text-2xl transition duration-300 transform hover:scale-105">
+                    ✍️ Writing Samples
+                </button>
+            </div>
+        </div>
+        
+        <div id="speaking-screen" class="hidden text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
+            <h2 class="text-3xl font-bold mb-6 text-indigo-400">Speaking Samples</h2>
+            <div class="text-gray-300 bg-gray-700 p-6 rounded-lg min-h-[200px]">
+                <p>Nội dung đang được cập nhật. Vui lòng quay lại sau!</p>
+            </div>
+            <button class="back-to-home-btn mt-8 bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 rounded-lg text-lg transition duration-300">Quay về Trang chính</button>
+        </div>
+
+        <div id="writing-screen" class="hidden text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
+            <h2 class="text-3xl font-bold mb-6 text-rose-400">Writing Samples</h2>
+            <div class="text-gray-300 bg-gray-700 p-6 rounded-lg min-h-[200px]">
+                <p>Nội dung đang được cập nhật. Vui lòng quay lại sau!</p>
+            </div>
+            <button class="back-to-home-btn mt-8 bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 rounded-lg text-lg transition duration-300">Quay về Trang chính</button>
+        </div>
+
+        <div id="login-screen" class="hidden text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
             <h1 class="text-4xl font-bold mb-2 text-cyan-400">B1 English Quizzes</h1>
             <p class="text-gray-300 mb-6">Luyện tập Vocabulary & Reading mỗi ngày!</p>
             <input type="text" id="name-input" placeholder="Nhập tên của bạn..." class="w-full max-w-sm mx-auto bg-gray-700 text-white placeholder-gray-400 border border-gray-600 rounded-lg px-4 py-3 text-lg mb-4 focus:outline-none focus:ring-2 focus:ring-cyan-500">
             <button id="login-btn" class="w-full max-w-sm mx-auto bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 transform hover:scale-105">Bắt đầu</button>
         </div>
 
-        <!-- Màn hình chọn chuyên mục -->
         <div id="category-selection-screen" class="hidden text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
             <h2 class="text-3xl font-bold mb-8">Chào <span id="user-name-display" class="text-cyan-400"></span>, chọn một chuyên mục:</h2>
             <div class="flex flex-col md:flex-row gap-6 justify-center">
@@ -58,9 +88,9 @@
                     📖 Reading
                 </button>
             </div>
+             <button id="back-to-home-from-category-btn" class="mt-8 bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 rounded-lg text-lg transition duration-300">Quay về Trang chính</button>
         </div>
         
-        <!-- Màn hình danh sách Quiz -->
         <div id="quiz-list-screen" class="hidden text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
             <h2 id="category-title" class="text-3xl font-bold mb-6"></h2>
             <div id="quiz-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 min-h-[150px] flex items-center justify-center">
@@ -73,7 +103,6 @@
             <button id="back-to-category-btn" class="mt-8 bg-gray-600 hover:bg-gray-700 text-white font-bold py-2 px-6 rounded-lg text-lg transition duration-300">Quay lại</button>
         </div>
 
-        <!-- Màn hình Quiz -->
         <div id="quiz-screen" class="hidden bg-gray-800 p-6 md:p-8 rounded-xl shadow-2xl">
             <div class="mb-6">
                 <div class="flex justify-between items-center mb-2">
@@ -93,7 +122,6 @@
             <div id="options-container" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
         </div>
         
-        <!-- Modal hiển thị giải thích -->
         <div id="feedback-modal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4">
             <div id="feedback-content" class="bg-gray-800 rounded-xl shadow-2xl p-8 max-w-lg w-full text-center">
                 <h3 id="feedback-title" class="text-3xl font-bold mb-4"></h3>
@@ -102,7 +130,6 @@
             </div>
         </div>
 
-        <!-- Màn hình kết quả -->
         <div id="results-screen" class="hidden text-center bg-gray-800 p-8 rounded-xl shadow-2xl">
             <h2 class="text-4xl font-bold mb-4 text-cyan-400">Hoàn thành!</h2>
             <p class="text-2xl mb-2">Kết quả của bạn:</p>
@@ -134,6 +161,9 @@
     // PHẦN LOGIC CỦA ỨNG DỤNG - BẠN KHÔNG CẦN CHỈNH SỬA PHẦN DƯỚI NÀY
     // =========================================================================
     const screens = {
+        home: document.getElementById('home-screen'),
+        speaking: document.getElementById('speaking-screen'),
+        writing: document.getElementById('writing-screen'),
         login: document.getElementById('login-screen'),
         category: document.getElementById('category-selection-screen'),
         quizList: document.getElementById('quiz-list-screen'),
@@ -143,6 +173,12 @@
     const feedbackModal = document.getElementById('feedback-modal');
     
     // DOM Elements
+    const readingVocabBtn = document.getElementById('reading-vocab-btn');
+    const speakingBtn = document.getElementById('speaking-btn');
+    const writingBtn = document.getElementById('writing-btn');
+    const backToHomeBtns = document.querySelectorAll('.back-to-home-btn');
+    const backToHomeFromCategoryBtn = document.getElementById('back-to-home-from-category-btn');
+
     const nameInput = document.getElementById('name-input');
     const loginBtn = document.getElementById('login-btn');
     const userNameDisplay = document.getElementById('user-name-display');
@@ -308,6 +344,13 @@
     }
 
     // Event Listeners
+    readingVocabBtn.addEventListener('click', () => showScreen('login'));
+    speakingBtn.addEventListener('click', () => showScreen('speaking'));
+    writingBtn.addEventListener('click', () => showScreen('writing'));
+    
+    backToHomeBtns.forEach(btn => btn.addEventListener('click', () => showScreen('home')));
+    backToHomeFromCategoryBtn.addEventListener('click', () => showScreen('home'));
+
     loginBtn.addEventListener('click', handleLogin);
     nameInput.addEventListener('keyup', (event) => {
         if (event.key === 'Enter') handleLogin();
@@ -423,11 +466,11 @@
         showScreen('results');
     }
 
-    backToMenuBtn.addEventListener('click', () => showScreen('category'));
+    backToMenuBtn.addEventListener('click', () => showScreen('home')); // Sửa lại để quay về trang chính
 
     // Initialize the app
     loadUserData();
-    showScreen('login');
+    showScreen('home'); // Bắt đầu bằng màn hình chính
 
     </script>
 </body>
