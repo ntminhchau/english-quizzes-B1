@@ -1,168 +1,453 @@
-<style>
-    /* Thêm một chút style để các mục lục và bài viết dễ nhìn hơn */
-    .toc a {
-        display: block;
-        padding: 0.5rem 1rem;
-        background-color: #374151; /* gray-700 */
-        margin-bottom: 0.5rem;
-        border-radius: 0.5rem;
-        transition: background-color 0.2s;
-        text-decoration: none;
-        color: #d1d5db; /* gray-300 */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Informal Letter Samples</title>
+  <style>
+    :root{
+      --brand:#16a34a; /* green-600 */
+      --bg:#f7f7fb;
+      --card:#ffffff;
+      --ink:#222;
+      --muted:#5b5b66;
+      --border:#e6e6ee;
     }
-    .toc a:hover {
-        background-color: #4f46e5; /* indigo-600 */
-        color: white;
-    }
-    .letter-prompt {
-        background-color: #1f2937; /* gray-800 */
-        border-left: 4px solid #f43f5e; /* rose-500 */
-        padding: 1rem;
-        border-radius: 0.5rem;
-        margin-bottom: 1rem;
-        font-style: italic;
-    }
-    .letter-body {
-        background-color: #1f2937; /* gray-800 */
-        padding: 1.5rem;
-        border-radius: 0.5rem;
-        line-height: 1.7;
-    }
-    .section-divider {
-        border-color: #4b5563; /* gray-600 */
-        margin-top: 3rem;
-        margin-bottom: 2rem;
-    }
-</style>
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;line-height:1.6}
+    header{background:var(--brand);color:#fff;padding:28px 16px;text-align:center}
+    header h1{margin:0 0 6px;font-weight:800;letter-spacing:.3px}
+    header p{margin:0;opacity:.9}
 
-<h2 class="text-3xl font-bold mb-6 text-cyan-400">Informal Letter Samples</h2>
-<p class="mb-8 text-gray-400">Nhấn vào các chủ đề bên dưới để xem bài mẫu. Các bài viết đã được sửa lỗi ngữ pháp và diễn đạt để tự nhiên hơn.</p>
+    .wrap{display:grid;grid-template-columns:300px 1fr;gap:18px;max-width:1200px;margin:22px auto;padding:0 16px}
+    nav{position:sticky;top:10px;align-self:start;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
+    nav h3{margin:0 0 8px;color:var(--brand)}
+    nav ul{list-style:none;margin:0;padding:0;max-height:70vh;overflow:auto}
+    nav li{margin:.35rem 0}
+    nav a{color:var(--brand);text-decoration:none}
+    nav a:hover{text-decoration:underline}
 
-<nav class="toc grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-2 mb-12">
-    <a href="#letter1">1. Cảm ơn về kỳ nghỉ</a>
-    <a href="#letter2">2. Báo tin chuyển nhà</a>
-    <a href="#letter3">3. Hướng dẫn ở nhờ</a>
-    <a href="#letter4">4. Xin lỗi lỡ sinh nhật</a>
-    <a href="#letter5">5. Hỏi xin lại ảnh</a>
-    <a href="#letter6">6. Nhờ tìm khóa học</a>
-    <a href="#letter7">7. Bán lại xe đạp</a>
-    <a href="#letter8">8. Vô ý làm hỏng đồ</a>
-    <a href="#practice1">9. Bán TV (Practice)</a>
-    <a href="#practice2">10. Cảm ơn về món quà (Practice)</a>
-    <a href="#practice3">11. Hỏi thông tin chuyến đi (Practice)</a>
-    <a href="#practice4">12. Cho lời khuyên du lịch (Practice)</a>
-    <a href="#practice5">13. An ủi bạn gặp thiên tai (Practice)</a>
-    <a href="#ref1" class="lg:col-span-3 bg-indigo-800 hover:bg-indigo-700 text-center font-bold">Xem các bài mẫu tham khảo (Reference Models)</a>
-</nav>
+    section.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.04);scroll-margin-top:80px}
+    section.card h2{margin-top:0;color:var(--brand)}
+    section.card h3{margin-bottom:6px}
+    .variant{margin-top:14px}
+    .meta{font-size:.92rem;color:var(--muted);margin-bottom:8px}
+    pre.letter{white-space:pre-wrap;background:#fafafa;border-left:4px solid var(--brand);padding:14px;border-radius:8px;overflow:auto}
 
+    .toplink{display:inline-block;margin-top:10px;font-size:.9rem}
+    .toplink a{color:var(--muted);text-decoration:none}
+    .toplink a:hover{text-decoration:underline}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Informal Letter Samples</h1>
+    <p>Mục lục, điều hướng nhanh, và các mẫu thư đã được chỉnh lỗi nhẹ (giữ nguyên phong cách gốc tối đa).</p>
+  </header>
 
-<main>
-    <h2 class="text-2xl font-bold text-cyan-400 border-b-2 border-cyan-400 pb-2 mb-8">Your Sample Letters (Đã sửa lỗi)</h2>
-    <div class="space-y-12">
-        <section id="letter1"><h3 class="text-xl font-bold mb-4 text-rose-400">1. Cảm ơn về kỳ nghỉ & hình ảnh</h3><div class="letter-prompt"><p>Last month you had a holiday overseas...</p></div><div class="letter-body"><p>Dear Sarah and Peter,...</p></div></section>
-        <section id="letter2"><h3 class="text-xl font-bold mb-4 text-rose-400">2. Báo tin chuyển nhà mới</h3><div class="letter-prompt"><p>You have recently moved to a different house...</p></div><div class="letter-body"><p>Dear Sarah,...</p></div></section>
-        <section id="letter3"><h3 class="text-xl font-bold mb-4 text-rose-400">3. Hướng dẫn bạn ở nhờ nhà</h3><div class="letter-prompt"><p>You are about to go on vacation for a month...</p></div><div class="letter-body"><p>Dear Sarah,...</p></div></section>
-        <section id="letter4"><h3 class="text-xl font-bold mb-4 text-rose-400">4. Xin lỗi vì lỡ sinh nhật bạn</h3><div class="letter-prompt"><p>One of your friends recently had a birthday celebration...</p></div><div class="letter-body"><p>Dear Sarah,...</p></div></section>
-        <section id="letter5"><h3 class="text-xl font-bold mb-4 text-rose-400">5. Hỏi xin lại ảnh chụp chung</h3><div class="letter-prompt"><p>You recently went on a trip with a friend...</p></div><div class="letter-body"><p>Dear Sarah,...</p></div></section>
-        <section id="letter6"><h3 class="text-xl font-bold mb-4 text-rose-400">6. Nhờ bạn giúp tìm khóa học</h3><div class="letter-prompt"><p>You have a friend who lives in a city abroad...</p></div><div class="letter-body"><p>Dear Sarah,...</p></div></section>
-        <section id="letter7"><h3 class="text-xl font-bold mb-4 text-rose-400">7. Muốn bán lại xe đạp cho bạn</h3><div class="letter-prompt"><p>You want to sell your bicycle...</p></div><div class="letter-body"><p>Dear Sarah,...</p></div></section>
+  <div class="wrap">
+    <nav aria-label="Table of contents">
+      <h3>Table of Contents</h3>
+      <ul>
+        <li><a href="#letter1">1) Thanking friends for holiday & photos</a></li>
+        <li><a href="#letter2">2) Moving to a new house</a></li>
+        <li><a href="#letter3">3) Friend staying at your apartment</a></li>
+        <li><a href="#letter4">4) Missing a birthday celebration</a></li>
+        <li><a href="#letter5">5) Asking for a photograph from a trip</a></li>
+        <li><a href="#letter6">6) Applying for a course abroad</a></li>
+        <li><a href="#letter7">7) Selling a bicycle</a></li>
+        <li><a href="#practice">Practice Topics</a>
+          <ul>
+            <li><a href="#p1">P1) Sell a television</a></li>
+            <li><a href="#p2">P2) Thank for a present</a></li>
+            <li><a href="#p3">P3) Visit friend’s country (info)</a></li>
+            <li><a href="#p4">P4) Two‑week holiday in your region</a></li>
+            <li><a href="#p5">P5) Unusual weather problems</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
 
-        <section id="letter8">
-            <h3 class="text-xl font-bold mb-4 text-rose-400">8. Vô ý làm hỏng đồ</h3>
-            <div class="letter-prompt">
-                <p>You recently stayed at your friend’s place to look after the house while he/she is away. You accidentally damaged something in his/her house. Write a letter to your friend. In your letter, you should:</p>
-                <ul class="list-disc list-inside mt-2">
-                    <li>describe what the accident was</li>
-                    <li>explain when it happened</li>
-                    <li>suggest how the damage can be fixed.</li>
-                </ul>
-            </div>
-            <div class="letter-body">
-                <p>Dear Sarah,</p><br>
-                <p>I hope you're having a wonderful time in Paris. I'm writing to apologise for something that happened while I was looking after your house. I feel absolutely terrible about it.</p><br>
-                <p>First of all, I am so sorry. There was an accident and I'm afraid I've damaged your motorbike. It happened last night at around 9 PM. I had taken it out to get some dinner in the city centre. On the way back, it suddenly started to rain very heavily. I tried to get home quickly, but the road was slippery and it was difficult to see. I lost control for a moment, and the bike slipped and fell.</p><br>
-                <p>Thankfully, I'm completely fine and wasn't hurt, but one of the plastic side panels on the motorbike cracked when it hit the ground.</p><br>
-                <p>I sincerely apologize again for my carelessness. I have already taken the bike to a repair shop and had the panel replaced, and I've paid for all the costs. It looks as good as new now, but if you're not satisfied with the repair when you get back, please let me know. We can figure something else out, and I'm of course happy to cover any further costs.</p><br>
-                <p>Hope to hear from you soon.</p><br>
-                <p>All the best,</p>
-                <p>Lai</p>
-            </div>
-        </section>
-    </div>
+    <main>
+      <!-- 1 -->
+      <section id="letter1" class="card">
+        <h2>1) Thanking friends for holiday & photos</h2>
+        <div class="variant">
+          <div class="meta">Version A (Lai)</div>
+<pre class="letter">Dear Sarah and Peter,
 
-    <hr class="section-divider">
+I hope this letter finds you well.
 
-    <h2 class="text-2xl font-bold text-cyan-400 border-b-2 border-cyan-400 pb-2 mb-8">Your Practice Answers (Đã sửa lỗi)</h2>
-    <div class="space-y-12">
-        <section id="practice1">
-            <h3 class="text-xl font-bold mb-4 text-rose-400">9. Bán TV (Practice)</h3>
-            <div class="letter-prompt"><p>You want to sell your television...</p></div>
-            <div class="letter-body"><p>Dear Sarah,...</p></div>
-        </section>
+I’m just writing to thank you for the holiday and the photos you sent me. This was the best holiday I’ve ever had. The photos are really beautiful — they bring back such great memories, and I’ll never forget that holiday whenever I see them.
 
-        <section id="practice2">
-            <h3 class="text-xl font-bold mb-4 text-rose-400">10. Cảm ơn về món quà (Practice)</h3>
-            <div class="letter-prompt"><p>A Canadian friend recently sent you a present...</p></div>
-            <div class="letter-body"><p>Dear Sarah,...</p></div>
-        </section>
-        
-        <section id="practice3">
-            <h3 class="text-xl font-bold mb-4 text-rose-400">11. Hỏi thông tin chuyến đi (Practice)</h3>
-            <div class="letter-prompt"><p>A friend you met last year has invited you to visit...</p></div>
-            <div class="letter-body"><p>Dear Sarah,...</p></div>
-        </section>
-        
-        <section id="practice4">
-            <h3 class="text-xl font-bold mb-4 text-rose-400">12. Cho lời khuyên du lịch (Practice)</h3>
-            <div class="letter-prompt"><p>An English speaking friend wants to spend a two-week holiday...</p></div>
-            <div class="letter-body"><p>Dear Sarah,...</p></div>
-        </section>
-        
-        <section id="practice5">
-            <h3 class="text-xl font-bold mb-4 text-rose-400">13. An ủi bạn gặp thiên tai (Practice)</h3>
-            <div class="letter-prompt"><p>You have recently heard that a friend of yours has had some problems...</p></div>
-            <div class="letter-body"><p>Dear Sarah,...</p></div>
-        </section>
-    </div>
+As you know, I’ve had a lot of work since returning. I went to work early in the morning and almost did overtime every day, so I often got home around midnight. That’s why I didn’t write earlier.
 
-    <hr class="section-divider">
+If you have a chance to visit Vietnam, you’re more than welcome to come and stay with me. It would be great to see you. I’ll take you around my country to thank you for the wonderful time we spent together. There are many famous places I’d love to show you. It would be fantastic if we could do some sightseeing together this summer.
 
-    <h2 id="ref1" class="text-2xl font-bold text-indigo-400 border-b-2 border-indigo-400 pb-2 mb-8">Reference Model Answers</h2>
-    <div class="space-y-12">
-        <section>
-            <h3 class="text-xl font-bold mb-4 text-indigo-300">Model: Moved House</h3>
-            <div class="letter-prompt"><p>You have recently moved to a different house...</p></div>
-            <div class="letter-body"><p>Dear John,...</p></div>
-        </section>
+Hope to hear from you soon.
 
-        <section>
-            <h3 class="text-xl font-bold mb-4 text-indigo-300">Model: Friend Staying Over</h3>
-            <div class="letter-prompt"><p>You are about to go on vacation for a month...</p></div>
-            <div class="letter-body"><p>Dear John,...</p></div>
-        </section>
-        
-        <section>
-            <h3 class="text-xl font-bold mb-4 text-indigo-300">Model: Missed Birthday</h3>
-            <div class="letter-prompt"><p>One of your friends recently had a birthday celebration...</p></div>
-            <div class="letter-body"><p>Dear Mark,...</p></div>
-        </section>
+All the best,
+Lai</pre>
+        </div>
+        <div class="variant">
+          <div class="meta">Version B (Sample – Peter)</div>
+<pre class="letter">Dear John,
+I hope this letter finds you well. I'm just writing to let you know that I've moved house.
+...
+(Đoạn mẫu chuẩn khác nằm ở các chủ đề tương ứng bên dưới để tránh lặp.)
+</pre>
+        </div>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
 
-        <section>
-            <h3 class="text-xl font-bold mb-4 text-indigo-300">Model: Trip Photographs</h3>
-            <div class="letter-prompt"><p>You recently went on a trip with a friend...</p></div>
-            <div class="letter-body"><p>Dear Jane,...</p></div>
-        </section>
+      <!-- 2 -->
+      <section id="letter2" class="card">
+        <h2>2) Moving to a new house</h2>
+        <div class="variant">
+          <div class="meta">Version A (Lai)</div>
+<pre class="letter">Dear Sarah,
 
-        <section>
-            <h3 class="text-xl font-bold mb-4 text-indigo-300">Model: Study Abroad</h3>
-            <div class="letter-prompt"><p>You have a friend who lives in a city abroad...</p></div>
-            <div class="letter-body"><p>Dear John,...</p></div>
-        </section>
-        
-        <section>
-            <h3 class="text-xl font-bold mb-4 text-indigo-300">Model: Sell Bicycle</h3>
-            <div class="letter-prompt"><p>You want to sell your bicycle...</p></div>
-            <div class="letter-body"><p>Dear John,...</p></div>
-        </section>
-    </div>
-</main>
+I hope this letter finds you well. I’m just writing to tell you that I’ve moved house. It was a bad idea to take my children to school and pick them up from Long Thanh every day, so I moved to a new house in a nice part of Dong Nai called Long Thanh Town Centre.
+
+My new house is quite big and has a lovely view of gardens in front and behind. There are three floors and four bedrooms. The air is fresh, so I usually open the windows to enjoy the breeze and sunshine. In addition, it doesn’t take long from here to the children’s school or to my workplace. There are many evening activities for my family. It’s close to the park, supermarket, shopping centre, cinema, and more. It’s also convenient for weekend trips to the beach or camping.
+
+If you have a chance to visit my hometown, you’re more than welcome to come and stay with us. It would be great to see you. It’s not far from here to the airport. We also have a room to spare, so you can stay any time you want.
+
+Hope to hear from you soon!
+
+All the best,
+Lai</pre>
+        </div>
+        <div class="variant">
+          <div class="meta">Version B (Sample – Peter)</div>
+<pre class="letter">Dear John,
+
+I hope this letter finds you well. I'm just writing to let you know that I've moved house.
+As you know, I went for an interview for a job here in London. Well, they gave me the position! It was a bad idea to travel to the office from Manchester every day, so I've found a new place in a nice part of London called Greenwich.
+
+My new house isn’t ideal. London prices are crazy, and I could only afford a one‑bedroom flat. But the good thing is it's on the ground floor and has big windows with a lovely view of the garden.
+
+If you travel to London, you're more than welcome to come and stay with me. It doesn’t take long from here to the city centre by bus, so we could do some sightseeing together.
+
+Hope to hear from you soon!
+
+All the best,
+Peter</pre>
+        </div>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
+
+      <!-- 3 -->
+      <section id="letter3" class="card">
+        <h2>3) Friend staying at your apartment</h2>
+        <div class="variant">
+          <div class="meta">Version A (Lai)</div>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. I’m just writing to tell you a few things you’ll need to know before staying at my place.
+
+The first thing to do is call me when you arrive. I’ll explain how to open the doors. The main gate uses a remote control to open and close when you go in or out. You can get the remote from a small bag under the tree in front of the house (on your right as you face the house). Press once to open; press again to close.
+
+After entering the main gate, you’ll see the second door. You need to enter a password to open it. It’s 999999 — easy to remember. If the weather is warm, you may want to turn on the air conditioner with the remote on the wall beside the fridge. You can open the windows without keys, but please shut them when you go out because it’s the rainy season. There are some fish, meat, and drinks for your meals. If you don’t mind, could you please water the plants and feed the fish when you have spare time?
+
+As for places to visit, you should check out Vung Tau and Ho Tram Beach if you like swimming or watching the sunrise. There’ll also be the Winwonders Phu Quoc event on 5th May — you should definitely check it out. Don’t forget the restaurant I told you about: ‘Corona Restaurant’ in Phu Quoc city centre, known for its Corona beer.
+
+Enjoy your stay!
+
+All the best,
+Lai</pre>
+        </div>
+        <div class="variant">
+          <div class="meta">Version B (Sample – Peter)</div>
+<pre class="letter">Dear John,
+
+I hope this letter finds you well. I'm just writing to tell you a few things that you'll need to know before staying at my place.
+
+Please pick up the keys from my neighbour. Come to number 10 any time after 5pm and ask for Sarah. I already told her to give you the keys and explain which key is which.
+
+If the weather gets warmer, you may want to turn the heating off. Go to the kitchen and look for the on/off switch behind the fridge. You can also open the windows with one of the keys, but please shut them if you go out.
+
+There’ll be a festival downtown on 5th May — you should definitely check it out. And don’t forget ‘The Grill’ across the street; it’s the restaurant I told you about.
+
+Enjoy your stay!
+
+All the best,
+Peter</pre>
+        </div>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
+
+      <!-- 4 -->
+      <section id="letter4" class="card">
+        <h2>4) Missing a birthday celebration</h2>
+        <div class="variant">
+          <div class="meta">Version A (Lai)</div>
+<pre class="letter">Dear Sarah,
+
+I hope you’re well and that you had a fantastic time on your birthday. I’m so sorry that I wasn’t there to celebrate with you, and for not letting you know in advance that I wouldn’t be able to come. I feel terrible that I didn’t find the time to contact you until now.
+
+Unfortunately, the week of your birthday I had to go on a two‑week overseas business trip with my boss. I couldn’t refuse because it was very important for my career. I was working all day, starting early in the morning and getting back home around midnight, so I couldn’t think about anything else. That’s why I missed your party and didn’t call to tell you.
+
+I really hope you’ll forgive me for being so thoughtless, and I hope you’ll let me make it up to you. As an apology, I’ve bought you a present and booked a table at a Korean restaurant for dinner next Saturday. I hope you’ll come.
+
+Hope to see you then!
+
+All the best,
+Lai</pre>
+        </div>
+        <div class="variant">
+          <div class="meta">Version B (Sample – Peter)</div>
+<pre class="letter">Dear Mark,
+
+I hope you're well and that you had a fantastic time on your birthday. I'm so sorry that I wasn’t there to celebrate with you, and for not letting you know in advance that I wouldn’t be able to come. I feel terrible that I haven’t found the time to contact you until now.
+
+The truth is that I’ve been under a lot of stress at work. I was going to lose my job if I didn't meet a sales target, so I couldn’t think about anything else during the last few weeks. This is why I couldn't be at your party, and why I didn't call to tell you.
+
+I really hope you'll forgive me, and I hope you'll let me make it up to you. I’ve bought tickets for us to go to the football game next Saturday. I hope you'll come.
+
+Hope to see you then!
+
+All the best,
+Peter</pre>
+        </div>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
+
+      <!-- 5 -->
+      <section id="letter5" class="card">
+        <h2>5) Asking for a photograph from a trip</h2>
+        <div class="variant">
+          <div class="meta">Version A (Lai)</div>
+<pre class="letter">Dear Sarah,
+
+I hope you enjoyed our trip last week. I’m just writing to ask whether you could send me some of the photos you took of the sunset over the mountains and the sunrise on the beach that last evening. I remember you took some photos of me with the sunset in the background, but I hope you also have one that just shows the sunset or the sunrise.
+
+The reason I’m looking for that photo is that I think it would look great as the background on my laptop or phone. I want to keep seeing those memorable moments every day. The images I’ve got now aren’t great. Also, I haven’t uploaded any photos to Facebook or Instagram for a long time — it’s fun when they reshow memories every year.
+
+I remember I took some photos, but I can’t find them — maybe my memory card had a problem. Now there’s only one picture left on my camera. It would be great if you could email me a copy if you have it.
+
+Hope to hear from you soon!
+
+All the best,
+Lai</pre>
+        </div>
+        <div class="variant">
+          <div class="meta">Version B (Sample – Peter)</div>
+<pre class="letter">Dear Jane,
+
+I hope you enjoyed our trip last week. I'm just writing to ask whether you could send me a copy of the photo you took of the sun setting over the mountains on the last evening. I know you took some photos of me with the sunset in the background, but I hope you have one that just shows the sunset.
+
+The reason I'm looking for that photo is that I think it would look great as the background on my laptop. The images I’ve got at the moment are so boring, and I wanted to change them for something really amazing that I took myself.
+
+I did take a fantastic picture of the sunset but somehow I accidentally deleted it on my camera. It would be great if you could email a copy to me if you have it.
+
+Hope to hear from you soon!
+
+All the best,
+Peter</pre>
+        </div>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
+
+      <!-- 6 -->
+      <section id="letter6" class="card">
+        <h2>6) Applying for a course abroad</h2>
+        <div class="variant">
+          <div class="meta">Version A (Lai)</div>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. I’m just writing to ask for your help with something.
+
+I’ve been thinking about studying abroad for a while now, and I’ve decided to study Marketing in Australia. I’d love to study in Melbourne because I know you studied there.
+
+As you know, I got a degree in Accounting, but I didn’t like it very much. I’m quite good at communication and foreign languages, and I’ve done well in my exams so far. I’ve also been taking an academic English course to prepare for studying abroad.
+
+However, I’m not sure which university to apply to, so I’d be really grateful if you could give me some advice and send me some information about different colleges there. I want to know about tuition fees, living costs, the weather, and the culture. Also, could you find out what qualifications I need, please?
+
+I hope you don’t mind doing this for me. It’s always better to get information from someone who lives there.
+
+I hope to hear from you soon.
+
+Many thanks,
+Lai</pre>
+        </div>
+        <div class="variant">
+          <div class="meta">Version B (Sample – Peter)</div>
+<pre class="letter">Dear John,
+
+I hope this letter finds you well. I’m just writing to ask for your help with something.
+
+I’ve been thinking about studying abroad for a while now, and I’ve decided to study electrical engineering in Australia. I’d love to study in Melbourne because I know you and a few other friends there.
+
+I’m quite good at maths and physics and I’ve done very well in my exams so far. I’ve also been doing an academic English course to prepare for studying abroad.
+
+However, I don’t know which university to apply to, so I’d be really grateful if you could send me some information about different colleges there, and what qualifications I need.
+
+I hope you don’t mind doing this for me. It’s much better to get this information from someone who lives in the country.
+
+I hope to hear from you soon.
+
+Many thanks,
+Peter</pre>
+        </div>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
+
+      <!-- 7 -->
+      <section id="letter7" class="card">
+        <h2>7) Selling a bicycle</h2>
+        <div class="variant">
+          <div class="meta">Version A (Lai)</div>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. I'm just writing to ask if you are interested in buying my bicycle.
+
+As you know, I have two bicycles but I seldom use them and usually ride only one, so I’ve decided to sell the other because my house is quite small.
+
+It’s a mountain bike that I bought 4 years ago — a Giant. It looks stylish and is suitable for all kinds of roads. It’s green and black. The frame is aluminum so it’s quite light. I love it, but I have no space to keep it.
+
+Why don’t you come round and have a look sometime? I’m sure you won’t be disappointed. You can test‑ride it before deciding to buy. I sometimes go out, so give me a call and let me know before you arrive.
+
+Hope to see you soon!
+
+All the best,
+Lai</pre>
+        </div>
+        <div class="variant">
+          <div class="meta">Version B (Sample – Peter)</div>
+<pre class="letter">Dear John,
+
+I hope this letter finds you well. I’m just writing to ask if you are interested in buying my bicycle.
+
+I’m going back home at the end of this month and I’ve decided to sell my bike because it’s too expensive to ship it.
+
+It’s a mountain bike I bought 4 years ago — green and black with a silver stripe. I’ve looked after it well. The tyres are in very good condition and I even installed extra lights at the back. It’s a Martin 107 and I want to sell it for around $40.
+
+Why don’t you come round and have a look sometime? I’m sure you won’t be disappointed. What about next Saturday morning when we don’t have classes? Give me a call and let me know.
+
+All the best,
+Peter</pre>
+        </div>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
+
+      <!-- PRACTICE TOPICS -->
+      <section id="practice" class="card">
+        <h2>Practice Topics</h2>
+        <p class="meta">Các chủ đề luyện tập thêm; đã chỉnh lỗi nhẹ.</p>
+
+        <div id="p1" class="variant">
+          <h3>P1) Sell your television</h3>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. I'm just writing to ask if you are interested in buying my television.
+
+As you know, my family will move to Canada next year, and I’ve decided to sell the TV because it’s too big and difficult to take abroad.
+
+It’s a 65‑inch 4K Sony that I bought 4 years ago for about $3,000. The picture quality is great for football and movies, and it has a 3D sound system. The design is slim and modern. I’d like to sell it for around $500.
+
+Why don’t you come round and have a look sometime? I’m sure you won’t be disappointed. A few people have messaged me recently, but I wanted to ask friends first. I usually work from 8am to 5pm, Monday to Friday. If you’re interested, give me a call and let me know when you get this letter.
+
+I hope to hear from you soon.
+
+All the best,
+Lai</pre>
+        </div>
+
+        <div id="p2" class="variant">
+          <h3>P2) Thank a Canadian friend for a present</h3>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. I’m just writing to thank you for the present I received yesterday. Long time no see, but you still remembered my birthday!
+
+I was really surprised when I opened it. I don’t know how you knew exactly what I wished for. It’s the most expensive gift I’ve ever received — an iPhone 15 Pro Max that I used to dream about. I couldn’t wait, so I unboxed it right away to explore the new features. It looks so nice and premium — I thought I was dreaming!
+
+I’ll use the phone to listen to music, play games, and watch my favourite films on YouTube in my spare time. It’s also convenient for me to learn English anywhere, especially on the bus. This present is so meaningful to me, and I promise I’ll study English well so you won’t be disappointed.
+
+Thank you again for the wonderful gift.
+
+All the best,
+Lai</pre>
+        </div>
+
+        <div id="p3" class="variant">
+          <h3>P3) Visiting your friend’s country — need information</h3>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. How is your family? It’s been a year since we met. I was very excited when you invited me to visit your country, and I’m writing to ask for some information about the trip.
+
+I’ve never been abroad before, so I’m really excited. I’d like to bring a present for your family, but I’m not sure what would be suitable. Could you tell me what your mother likes?
+
+I’m also wondering about the weather. Will it be too cold when I come? What kind of clothes should I bring? In addition, what activities are popular there — should I bring trainers or swimming gear?
+
+Also, could you tell me about the traditional food in your country? I’m a big fan of food, so I really want to try some local dishes with you.
+
+I’m looking forward to hearing from you soon.
+
+All the best,
+Lai</pre>
+        </div>
+
+        <div id="p4" class="variant">
+          <h3>P4) Two‑week holiday in your region — advice</h3>
+<pre class="letter">Dear Sarah,
+
+I’m really happy to hear you’ll have time to visit my country. I’m just writing to tell you a few things you’ll need to know before coming to my region.
+
+I live in Long Thanh Town, about 25 km from Ho Chi Minh City. My house has a spare room where you can stay during your holiday. Alternatively, you could stay at a homestay that my friend opened about 3 years ago near the city centre — the price isn’t expensive, and I can ask him to give you a discount.
+
+In the evening there are many places to visit such as Bach Dang Park, Nha Rong Wharf, Independence Palace, Nguyen Hue Walking Street, and you can take a cruise on the Saigon River.
+
+It’s summer now — hot and sunny — so please bring light clothes, sunscreen, and sunglasses.
+
+Enjoy your holiday!
+
+All the best,
+Lai</pre>
+        </div>
+
+        <div id="p5" class="variant">
+          <h3>P5) Concern after unusual weather</h3>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. I’m just writing to ask how things are going after the recent storm and flooding.
+
+I’m so sorry to hear your house was damaged. I know you must be having a really hard time. I hope you stay strong and get through these difficulties soon.
+
+My hometown is in central Vietnam, so we also have many storms and floods in winter. The biggest flood I remember was in 2022. It rained for days, the water rose quickly, and many things were washed away. That night was one of the worst I’ve ever experienced.
+
+I know it’s hard right now, but please be careful. Roads are often damaged after storms, so don’t drive through flooded areas. Let me know if you need any help — I’m here for you.
+
+Hope you get through this soon!
+
+All the best,
+Lai</pre>
+        </div>
+
+      </section>
+
+      <!-- EXTRA: House‑sitting accident letter -->
+      <section id="extra" class="card">
+        <h2>Bonus) House‑sitting accident (apology & fix)</h2>
+<pre class="letter">Dear Sarah,
+
+I hope this letter finds you well. I’m writing to tell you about an accident that happened while I was looking after your house.
+
+First of all, I’m so sorry about the damage to your motorbike. It was my responsibility while you were on vacation in Paris. I used your motorbike and accidentally damaged it.
+
+It was around 9 p.m. when I rode out for dinner in the city centre. On the way back, it suddenly started raining heavily. Without a raincoat, I tried to get home quickly, but visibility was poor and I couldn’t control my speed well. I slipped and fell. Fortunately, I wasn’t injured, but the bike was scratched and a part broke.
+
+I’ve already had it repaired, but if you’re not satisfied, please let me know. I can pay for further repairs or, if necessary, replace the damaged parts. I feel really bad about this.
+
+Hope to hear from you soon.
+
+All the best,
+Lai</pre>
+        <div class="toplink"><a href="#top">↑ Back to top</a></div>
+      </section>
+
+    </main>
+  </div>
+
+  <a id="top"></a>
+</body>
+</html>
